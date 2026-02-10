@@ -1,9 +1,7 @@
 {
-  "description": "Колобок: современный минималистичный AI-помощник для мобильных устройств с возможностями Vision и заказом карт Google Play.",
+  "description": "LOX777: Элитный мобильный симулятор казино с интеграцией AI-советника и начальным балансом 10,000 ₴.",
   "requestFramePermissions": [
-    "geolocation",
-    "microphone",
-    "camera"
+    "microphone"
   ],
-  "name": "Колобок AI"
+  "name": "LOX777 Casino"
 }

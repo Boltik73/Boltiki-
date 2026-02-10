@@ -4,29 +4,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
-    <title>KOLO AI | Digital Asset Terminal</title>
+    <title>LOX777 | Elite Slots Casino</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&family=Inter:wght@400;600;800;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&family=Montserrat:ital,wght@0,900;1,900&display=swap" rel="stylesheet">
     <style>
         body {
             font-family: 'Inter', sans-serif;
-            background-color: #020617;
-            color: #f8fafc;
-            overflow-x: hidden;
+            background-color: #050505;
+            color: #ffffff;
+            overflow: hidden;
             height: 100vh;
             margin: 0;
             padding: 0;
             -webkit-tap-highlight-color: transparent;
         }
-        .font-mono {
-            font-family: 'JetBrains Mono', monospace;
-        }
-        .glass-panel {
-            background: rgba(2, 6, 23, 0.85);
-            backdrop-filter: blur(20px);
-            -webkit-backdrop-filter: blur(20px);
+        .font-casino {
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 900;
+            font-style: italic;
         }
         .no-scrollbar::-webkit-scrollbar {
             display: none;
@@ -38,17 +35,18 @@
         .pb-safe {
             padding-bottom: env(safe-area-inset-bottom);
         }
-        ::placeholder {
-            color: #475569 !important;
+        input::-webkit-outer-spin-button,
+        input::-webkit-inner-spin-button {
+            -webkit-appearance: none;
+            margin: 0;
         }
-        @keyframes shake {
-            0%, 100% { transform: translateX(0); }
-            25% { transform: translateX(-5px); }
-            75% { transform: translateX(5px); }
+        @keyframes pulse-gold {
+            0% { box-shadow: 0 0 0 0 rgba(245, 158, 11, 0.4); }
+            70% { box-shadow: 0 0 0 10px rgba(245, 158, 11, 0); }
+            100% { box-shadow: 0 0 0 0 rgba(245, 158, 11, 0); }
         }
-        .animate-shake {
-            animation: shake 0.2s ease-in-out infinite;
-            animation-iteration-count: 2;
+        .animate-pulse-gold {
+            animation: pulse-gold 2s infinite;
         }
     </style>
 <script type="importmap">
@@ -63,7 +61,7 @@
 }
 </script>
 </head>
-<body class="bg-[#020617]">
+<body>
     <div id="root"></div>
     <script type="module" src="index.tsx"></script>
 </body>
