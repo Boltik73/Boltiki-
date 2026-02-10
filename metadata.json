@@ -1,0 +1,9 @@
+{
+  "description": "Колобок: современный минималистичный AI-помощник для мобильных устройств с возможностями Vision и заказом карт Google Play.",
+  "requestFramePermissions": [
+    "geolocation",
+    "microphone",
+    "camera"
+  ],
+  "name": "Колобок AI"
+}
